@@ -62,8 +62,8 @@ parts:
         # sections:
         #  - file: unidades/u5-transformacion-datos/unidad-5-slides-p1.md
         #  - file: unidades/u5-transformacion-datos/unidad-5-slides-p2.md
-      # - file: unidades/u5-transformacion-datos/unidad-5-practica.md
-      #   title: Práctica
+      - file: unidades/u5-transformacion-datos/unidad-5-practica.md
+        title: Práctica
       
   - caption: 6. Ajustes y modelos
     chapters:
