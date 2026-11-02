@@ -9,7 +9,7 @@ kernelspec:
   name: python3
 ---
 
-# Unidad 6 - Ajustes y Modelos
+# Unidad 6 - Ajustes y modelos
 
 ## Introducción
 

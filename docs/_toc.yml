@@ -67,8 +67,8 @@ parts:
       
   - caption: 6. Ajustes y modelos
     chapters:
-      # - file: unidades/u6-ajustes-y-modelos/unidad-6-ajustes-y-modelos.md
-      #   title: Material de lectura
+      - file: unidades/u6-ajustes-y-modelos/unidad-6-ajustes-y-modelos.md
+        title: Material de lectura
       - file: unidades/u6-ajustes-y-modelos/unidad-6-diapositivas.md
         title: Diapositivas
         # sections:
