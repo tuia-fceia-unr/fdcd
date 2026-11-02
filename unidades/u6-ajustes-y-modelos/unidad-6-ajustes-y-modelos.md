@@ -1503,7 +1503,7 @@ Este gráfico ayudará a visualizar cómo de cerca están las predicciones de lo
 
 Este [post](https://mlu-explain.github.io/linear-regression/) es un buen resumen de todos los temas que estuvimos viendo de regresión lineal en esta unidad. 
 
-# Referencias no listadas anteriormente
+## Referencias no listadas anteriormente
 
 (1) Introduction to Modern Statistics Mine Çetinkaya-Rundel and Johanna Hardin
 
