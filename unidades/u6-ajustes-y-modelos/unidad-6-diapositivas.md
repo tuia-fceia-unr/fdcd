@@ -6,6 +6,11 @@ Modelo de regresión lineal simple. Parámetros del modelo. Función de regresi�
 
 <iframe src="./slides/u6-ajustes-modelos-p1.html" width="100%" height="600px"></iframe>
 
+## Parte 2
+Recapitulación: predicción e inferencia, interpretación de los coeficientes en regresión lineal múltiple con un predictor cualitativo y R<sup>2</sup> ajustado. Parámetros, estimadores y estimaciones. Distribución muestral de un estimador. Error estándar. Pruebas de hipótesis sobre los parámetros del modelo: hipótesis nula y alternativa, estadístico *T*, valor-*p* y nivel de significación. Supuestos del modelo de regresión lineal. Análisis de residuos.
+
+<iframe src="./slides/u6-ajustes-modelos-p2.html" width="100%" height="600px"></iframe>
+
 ## Descargar slides
 
 **PARA DESCARGAR ESTAS SLIDES:** Hacer clic con el botón derecho sobre las tres rayitas que aparecen en la esquina inferior izquierda de las slides y elegir la opción “Abrir enlace en una nueva pestaña” o “Abrir en una nueva ventana”.
