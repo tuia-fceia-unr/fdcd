@@ -116,9 +116,9 @@ En un grupo de nadadores de competición se desea estudiar si algunas variables 
 - `entrena_fuerza`: 1 si el nadador realiza entrenamiento de fuerza y 0 si no.
 - `entrena_pasadas`: 1 si el nadador realiza entrenamiento de velocidad explosiva y 0 si no.
 
-1. Construya gráficos separados que muestren la relación entre el tiempo en los 100 metros libres y cada una de las tres variables antropométricas (estatura, peso y alcance de brazos). ¿Cuál o cuáles de ellas parecen estar asociadas con el tiempo?
+1. Construya gráficos separados que muestren la relación entre el tiempo en los 100 metros libres y cada una de las tres variables antropométricas (estatura, peso y alcance de brazos). ¿Cuál o cuáles de ellas parecen estar más asociadas con el tiempo? ¿Cómo describiría dicha asociación?
 
-2. Ajuste un modelo de regresión lineal múltiple para el tiempo en los 100 mettos libres que incluya los cinco predictores. ¿Cuáles resultan significativos al 5 %?
+2. Ajuste un modelo de regresión lineal múltiple para modelar el tiempo en los 100 metros libres que incluya los cinco predictores. ¿Cuáles de ellos resultan significativos al 5 %?
 
 3. En base a su respuesta del ítem anterior, evalúe la posibilidad de ajustar un modelo alternativo con un subconjunto de los predictores. Justifique su decisión y escriba la ecuación del modelo ajustado.
 
