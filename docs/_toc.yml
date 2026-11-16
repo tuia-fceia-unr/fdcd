@@ -71,6 +71,8 @@ parts:
         title: Material de lectura
       - file: unidades/u6-ajustes-y-modelos/unidad-6-diapositivas.md
         title: Diapositivas
+      - file: unidades/u6-ajustes-y-modelos/unidad-6-practica.md
+        title: Práctica
         # sections:
         #  - file: unidades/u6-ajustes-y-modelos/unidad-6-slides-p1.md
         #  - file: unidades/u6-ajustes-y-modelos/unidad-6-slides-p2.md
