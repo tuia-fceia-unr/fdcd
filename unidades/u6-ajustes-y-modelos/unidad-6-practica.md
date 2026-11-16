@@ -12,13 +12,13 @@
 :class: rubric-ejercicio
 ```
 
-El dataset **`student_data.csv`** contiene el promedio de horas semanales que un grupo de estudiantes dedicó a preparar un examen y la calificación final que obtuvo cada uno al rendirlo.
+El dataset **`student_data.csv`** contiene el promedio de horas semanales que un grupo de estudiantes de una institución educativa dedicó a preparar un examen y la calificación final que obtuvo cada uno al rendirlo.
 
 1. Construya un gráfico que permita visualizar la relación entre las calificaciones finales y las horas de estudio. ¿Cómo describiría esa relación a partir de lo observado?
 
 2. ¿Qué medida utilizaría para cuantificar el grado de asociación lineal entre ambas variables? Calcúlela e interprete el valor obtenido.
 
-3. Ajuste un modelo de regresión lineal para la calificación final en función de las horas semanales de estudio y represéntelo sobre el gráfico del ítem 1.
+3. Ajuste un modelo de regresión lineal para explicar la calificación final de los estudiantes de la institución a partir de las horas semanales de estudio y represéntelo sobre el gráfico del ítem 1.
 
 4. Escriba la ecuación del modelo ajustado e interprete cada uno de sus coeficientes.
 
@@ -57,7 +57,7 @@ El dataset `penguins` reúne medidas corporales de pingüinos de tres especies (
 
 2. Construya un gráfico que permita visualizar la relación entre la longitud de la aleta y la longitud del pico, según la especie. ¿Qué observa?
 
-3. Ajuste un modelo de regresión lineal que permita predecir la longitud promedio del pico a partir de la longitud de la aleta (**modelo 1**).
+3. Ajuste un modelo de regresión lineal para explicar la longitud promedio del pico a partir de la longitud de la aleta (**modelo 1**).
 
 4. Teniendo en cuenta lo observado en el ítem 1, modifique el modelo inicial para mejorar su capacidad predictiva y ajuste el nuevo modelo (**modelo 2**).
 
@@ -69,11 +69,11 @@ El dataset `penguins` reúne medidas corporales de pingüinos de tres especies (
 :class: rubric-ejercicio
 ```
 
-Un cliente lo contrata como científico de datos para estudiar la asociación entre la inversión publicitaria de su empresa y las ventas de un producto. El dataset `advertising.csv` contiene las ventas (`Sales`) de ese producto en 200 mercados y los presupuestos publicitarios destinados a televisión (`TV`), radio (`Radio`) y periódicos (`Newspaper`).
+Un cliente lo contrata como científico de datos para estudiar la asociación entre la inversión publicitaria de su empresa y las ventas de un producto. El dataset **`advertising.csv`** contiene las ventas (`Sales`) de ese producto en 200 mercados y los presupuestos publicitarios destinados a televisión (`TV`), radio (`Radio`) y periódicos (`Newspaper`).
 
 1. ¿La inversión en cuál de los tres medios se asocia más fuertemente con las ventas? Fundamente su respuesta.
 
-2. Ajuste un modelo de regresión lineal múltiple para predecir las ventas promedio a partir de los tres presupuestos publicitarios. En base a los resultados obtenidos, realice las modificaciones que considere adecuadas para quedarse con el mejor modelo y justifique cada decisión que tome.
+2. Ajuste un modelo de regresión lineal múltiple para modelar las ventas (*Sales*) en función de los tres presupuestos publicitarios (*TV*, *Radio* y *Newspaper*). En base a las pruebas de hipótesis sobre los parámetros del modelo, evalúe si corresponde ajustar un modelo con menos predictores y justifique cada decisión que tome.
 
 3. Escriba la ecuación del modelo ajustado final e interprete el coeficiente correspondiente a `TV`.
 
@@ -85,9 +85,9 @@ Un cliente lo contrata como científico de datos para estudiar la asociación en
 :class: rubric-ejercicio
 ```
 
-El dataset `auto.xlsx` contiene información sobre 392 automóviles de distintas marcas y modelos. Entre sus columnas se encuentran el consumo en millas por galón (`mpg`), la potencia en caballos de fuerza (`horsepower`), el peso en libras (`weight`), el origen (`origin`) y la marca y el modelo (`name`).
+El dataset **`auto.xlsx`** contiene información sobre 392 automóviles de distintas marcas y modelos. Entre sus columnas se encuentran el consumo en millas por galón (`mpg`, 1 galón equivale a aproximadamente 3.785 litros), la potencia en caballos de fuerza (`horsepower`), el peso en libras (`weight`), el origen (`origin`) y la marca y el modelo (`name`).
 
-1. ¿Qué porcentaje de los automóviles del dataset pertenece a la marca Ford?
+1. ¿Qué porcentaje de los automóviles del dataset pertenece a la marca *Ford*?
 
 2. Construya un gráfico que permita visualizar la distribución de los automóviles según su origen. Para ello, tenga en cuenta que la columna `origin` está codificada de la siguiente manera: 1 = americano, 2 = europeo y 3 = japonés.
 
@@ -97,9 +97,9 @@ El dataset `auto.xlsx` contiene información sobre 392 automóviles de distintas
 
     b) ¿Cómo interpreta el coeficiente correspondiente a `horsepower`?
 
-    c) ¿Qué porcentaje de la variabilidad del consumo explica el modelo?
+    c) ¿Qué porcentaje de la variabilidad del consumo es explicada el modelo?
 
-4. Construya un gráfico que muestre la relación entre `mpg` y `horsepower` y represente sobre él el modelo ajustado. ¿Encuentra alguna limitación en el modelo propuesto? Justifique.
+4. Construya un gráfico que muestre la relación entre `mpg` y `horsepower` y represente sobre él la función de regresión estimada. ¿Encuentra alguna limitación en el modelo propuesto? Justifique.
 
 5. Si su respuesta al ítem anterior fue afirmativa, proponga y ajuste una modificación del modelo que resuelva las limitaciones encontradas.
 
@@ -107,7 +107,7 @@ El dataset `auto.xlsx` contiene información sobre 392 automóviles de distintas
 :class: rubric-ejercicio
 ```
 
-En un grupo de nadadores de competición se desea estudiar si algunas variables antropométricas (la estatura, el peso y el alcance de brazos) y el tipo de entrenamiento se relacionan con el tiempo en los 100 metros libres. El dataset `nadadores.csv` contiene los datos de 50 nadadores que participaron de un torneo inter-clubes:
+En un grupo de nadadores de competición se desea estudiar si algunas variables antropométricas (la estatura, el peso y el alcance de brazos) y el tipo de entrenamiento se relacionan con el tiempo en los 100 metros libres. El dataset **`nadadores.csv`** contiene los datos de 50 nadadores que participaron de un torneo inter-clubes:
 
 - `tiempo`: tiempo en los 100 metros libres, en segundos.
 - `estatura`: estatura, en centímetros.
@@ -118,9 +118,9 @@ En un grupo de nadadores de competición se desea estudiar si algunas variables 
 
 1. Construya gráficos separados que muestren la relación entre el tiempo en los 100 metros libres y cada una de las tres variables antropométricas (estatura, peso y alcance de brazos). ¿Cuál o cuáles de ellas parecen estar asociadas con el tiempo?
 
-2. Ajuste un modelo de regresión lineal múltiple para el tiempo con los cinco predictores. ¿Cuáles resultan significativos al 5 %?
+2. Ajuste un modelo de regresión lineal múltiple para el tiempo en los 100 mettos libres que incluya los cinco predictores. ¿Cuáles resultan significativos al 5 %?
 
-3. En base a su respuesta al ítem anterior, proponga un modelo final con menos predictores que el modelo completo. Justifique su elección y escriba la ecuación del modelo estimado.
+3. En base a su respuesta del ítem anterior, evalúe la posibilidad de ajustar un modelo alternativo con un subconjunto de los predictores. Justifique su decisión y escriba la ecuación del modelo ajustado.
 
 4. Utilice el modelo final para predecir el tiempo de un nadador de 188 cm de estatura que no realiza ninguno de los dos tipos de entrenamiento.
 
@@ -128,7 +128,7 @@ En un grupo de nadadores de competición se desea estudiar si algunas variables 
 :class: rubric-ejercicio
 ```
 
-El dataset `USA_Housing.xlsx` contiene información sobre 5000 viviendas de Estados Unidos. Las variables que describen a cada vivienda son:
+El dataset **`USA_Housing.xlsx`** contiene información sobre 5000 viviendas de Estados Unidos. Las variables que describen a cada vivienda son:
 
 - `avg_area_income`: ingreso promedio de los residentes de la ciudad en la que se ubica la vivienda.
 - `avg_area_house_age`: antigüedad promedio de las casas de esa ciudad.

@@ -2116,12 +2116,13 @@ dtype: float64</code></pre>
 <aside><div>
 <p><strong>Fuente:</strong> adaptado de James, Witten, Hastie, Tibshirani y Taylor (2023). <em>An Introduction to Statistical Learning with Applications in Python</em> (ISLP), cap. 3.</p>
 </div></aside></section>
-<section id="manos-a-la-obra" class="slide level2">
-<h2>¡MANOS A LA OBRA!</h2>
+<section id="section-12" class="slide level2">
+<h2></h2>
 <div style="background-color: #ffff82; padding: 0.5em; border-radius: 4px;">
-<p><strong>1. Ajustar un modelo de regresión lineal múltiple para <em>Sales</em> usando los tres predictores: <em>TV</em>, <em>Radio</em> y <em>Newspaper</em>. ¿Cuáles predictores son estadísticamente significativos al 5%?</strong></p>
-<p><strong>2. Interpretar el coeficiente asociado con <em>TV</em></strong>.</p>
-<p><strong>3. Reajustar el modelo eliminando el o los predictores no significativos. Usando el modelo reducido, estimar las ventas promedio para un mercado con una inversión de 150 mil USD en <em>TV</em>, 30 mil USD en <em>radio</em> y 60 mil USD en <em>diarios</em>.</strong></p>
+<p><strong>1. Ajustar un modelo de regresión lineal múltiple para explicar las ventas (<em>Sales</em>) a partir de la inversión publicitaria en <em>TV</em>, <em>Radio</em> y diarios (<em>Newspaper</em>). ¿Cuáles predictores son estadísticamente significativos al 5%?</strong></p>
+<p><strong>2. En base a su respuesta del ítem anterior, evalúe la posibilidad de ajustar un modelo alternativo con un subconjunto de los predictores. Justifique su decisión.</strong></p>
+<p><strong>3. Interpretar el coeficiente asociado con <em>TV</em> en el modelo alternativo.</strong></p>
+<p><strong>4. Usando el modelo alternativo, estimar las ventas promedio para un mercado con una inversión de 150 mil USD en <em>TV</em>, 30 mil USD en <em>radio</em> y 60 mil USD en <em>diarios</em>.</strong></p>
 </div>
 </section></section>
 <section>
@@ -2236,7 +2237,7 @@ dtype: float64</code></pre>
 <p>Un <span class="termino-diag"><strong>punto influyente</strong></span> es una observación cuya presencia <strong>cambia notablemente el ajuste</strong>. Suele combinar valores inusuales de los predictores con un <span class="math inline">\(y_i\)</span> que no sigue la tendencia del resto.</p>
 </div>
 </section>
-<section id="section-12" class="slide level2 nostretch">
+<section id="section-13" class="slide level2 nostretch">
 <h2></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -2248,7 +2249,7 @@ dtype: float64</code></pre>
 <p>Es una observación con <strong>alto <em>leverage</em></strong>, pero no es un <em>outlier</em>. <span class="fragment">Por eso las rectas <span style="color:#2749FF;"><strong>con</strong></span> y <span style="color:#FB0007;"><strong>sin</strong></span> ▲ casi coinciden.</span></p>
 </div>
 </section>
-<section id="section-13" class="slide level2 nostretch">
+<section id="section-14" class="slide level2 nostretch">
 <h2></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -2260,7 +2261,7 @@ dtype: float64</code></pre>
 <p>Es un <strong><em>outlier</em></strong> con <strong>bajo <em>leverage</em></strong>. <span class="fragment">Las rectas <span style="color:#2749FF;"><strong>con</strong></span> y <span style="color:#FB0007;"><strong>sin</strong></span> ▲ difieren poco, pero su presencia aumenta la <span class="math inline">\(SC_{Error}\)</span>.</span></p>
 </div>
 </section>
-<section id="section-14" class="slide level2 nostretch">
+<section id="section-15" class="slide level2 nostretch">
 <h2></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
